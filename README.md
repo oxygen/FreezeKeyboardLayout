@@ -1,6 +1,6 @@
 # Freeze keyboard layout
 
-I have no idea which application on my system is activating alternative keyboard layouts for my current keyboard layout language. These extra layouts do not show up in Control Panel as added.
+I have no idea which application on my system is activating alternative keyboard layouts for my current keyboard layout language. These extra layouts do not show up in Control Panel as added making it difficult to remove them.
 
 This application periodically enumerates all currently loaded keyboard layouts into the system (not necessarily defined in Control Panel), and removes them from memory. It then loads the preferred keyboard layout.
 
