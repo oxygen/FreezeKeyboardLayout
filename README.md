@@ -6,6 +6,8 @@ This application periodically enumerates all currently loaded keyboard layouts i
 
 __Currently the application only fixes the keyboard layout if it has focus. Need to find a way to make it work without focus as well.__
 
+TODO: Rename `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layouts` into `Keyboards Layouts Original` and create a new `Keyboard Layouts` which only contains the selected KLID.
+
 Work in progress:
 ```c++
 	// Fatal flaw of this application:
